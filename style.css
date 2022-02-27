@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(91, 209, 170);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.progress_bg{
+    width: 350px;
+    border-radius: 50px;
+    height: 10px;
+    background-color: #bce3ff;
+   
+}
+.progress_bar{
+    width: 0%;
+    height: 100%;
+    border-radius: 50px;
+    transition: all .5s;
+    max-width: 100%;
+    background-color: #2a99ea;
+}
+.container h1{
+    display: block;
+}
